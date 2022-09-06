@@ -1,7 +1,7 @@
 
-# Observations:
+# Observations
 
-## Current Pod Status:
+## Current Pod Status
 ```
 [root@ip-172-31-1-177 ~]# kubectl get pods
 NAME                      READY   STATUS    RESTARTS   AGE
