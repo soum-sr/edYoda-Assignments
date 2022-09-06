@@ -55,7 +55,7 @@ worker-dd46d7584-l65wj    1/1     Running   1          4m54s
 
 ## Making the app work
 
-When the db pod is deleted the app lost its connection to the existing db, since the socket is not available. Upon restarting or deleting the result prod the issue will be resolved solve, as it will create a new connection with the db. But when doing so the previous data stored in the db will be lost.
+When the db pod was deleted the app lost its connection to the existing db, since the socket was not available. Deleting the result pod resolves this issue, as creation of a new instance of result pod a new connection with the db will be established. But when doing so the previous data stored in the db will be lost.
 
 ```
 [root@ip-172-31-1-177 ~]# kubectl get pods
