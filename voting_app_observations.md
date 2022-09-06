@@ -71,6 +71,5 @@ error: resource(s) were provided, but no name, label selector, or --all flag spe
 pod "result-5d57b59f4b-txpfp" deleted
 [root@ip-172-31-1-177 ~]#
 ```
-```
 
 
